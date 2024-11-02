@@ -1,0 +1,88 @@
+/* import da letra medieval*/
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    font-family: 'MedievalSharp', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 auto;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+label {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+input, select {
+    margin: 0 15px 0 0 ;
+    padding: 13px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'MedievalSharp', sans-serif;
+}
+
+select {
+    width: 300px;
+}
+
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+
+.buttom {
+    background: rgb(36, 100, 36);
+    color: white;
+    font-size: 20px;
+    font-family: 'MedievalSharp', sans-serif;
+    width: 100px;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: 3s background;
+    
+
+}
+
+.buttom:hover {
+    transform: scale(1.2);
+    transition: transform 5s;
+    background: rgb(62, 153, 62);
+}
+
+/*ESTILO DA TABELA*/
+
+#tabela-armazem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+thead {
+    display: flex;
+    justify-content: space-evenly;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <h1>Controle De Estoque</h1>
+        <div class="container">
+            <main>
+                <div class="campo">
+                    <label for="item">Item</label>
+                    <input type="text" id="item" placeholder="Nome do Item">
+                </div>
+    
+                <div class="campo">
+                    <label for="quantidade">Quantidade</label>
+                    <input type="text" id="quantidade" placeholder="Quantidade">
+                </div>
+    
+                <div class="campo">
+                    <label for="fluxo">Tipo</label>
+                    <select name="nome" id="fluxo" class="fluxo">
+                        <option value="text"></option>
+                        <option value="text">Entrada</option>
+                        <option value="text">Saida</option>
+                    </select>
+                </div>       
+                
+                <div class="enviar">
+                    <input type="submit" value="enviar" class="buttom">
+                </div>
+                
+            </main>
+        </div>
+
+        <table id="tabela-armazem">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantidade</th>
+                    <th>Data</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                
+            </tbody>
+            
+        </table>
+    </body>
+</html>
