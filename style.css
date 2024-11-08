@@ -74,15 +74,27 @@ select {
 
 /*ESTILO DA TABELA*/
 
-#tabela-armazem {
+.tabela {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     flex-direction: row;
+    border-collapse: collapse;
+    
+
 }
 
-thead {
+.tabela-armazem {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.topicos {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+    
+    
+    
 }
 
