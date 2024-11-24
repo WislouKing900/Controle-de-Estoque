@@ -76,9 +76,25 @@ select {
 
 table {
     border-collapse: collapse;
+    margin: 20px;
+}
+
+thead {
+    border-radius: 15px;
 }
 
 th {
-    border: 1px solid black;
-    padding: 10px;
+    background-color: rgb(214, 214, 214);
+    /*border: 1px solid black;*/
+    padding: 10px 180px 10px;
+    border-radius: 15px;
+}
+
+tbody {
+    background-color: rgb(207, 231, 207);
+}
+
+#tabela-armazem {
+    display: flex;
+    justify-content: center;
 }
